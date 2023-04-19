@@ -1,0 +1,19 @@
+<h1 class="text-center mt-5">vista principal</h1>
+
+{{#if error}}
+<h2 class="text-center mt-5">Error al cargar los productos. Intente más tarde.</h2>
+    {{else}}
+
+<div class="row mt-5">
+    {{#each productos}}
+        <div class="col-12 col-md-6 col-lg-4">
+            {{> card 
+                nombre = this.nombre
+                descripcion = this.descripcion
+                imagen = this.imagen
+            }}
+        </div>
+    {{/each}}
+</div>
+
+{{/if}}

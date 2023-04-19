@@ -1,0 +1,30 @@
+{
+    "productos": [
+        {
+            "id": "1",
+            "nombre": "Celular LG ",
+            "descripcion": "Modelo Stylus 3",
+            "stock": "15",
+            "precio": "120000",
+            "imagen": "celular LG.png"
+        },
+        {
+            "id": "2",
+            "nombre": "Iphone 13 pro max",
+            "descripcion": "128 gb color grafito",
+            "stock": "8",
+            "precio": "700000",
+            "imagen": "iphone.png"
+        },
+        {
+            "id": 3,
+            "nombre": "Xiaomi redmi 12",
+            "descripcion": "128 gb color lavanda",
+            "stock": 15,
+            "precio": 170000,
+            
+            "imagen": "redmi.png"
+        }
+    ]
+}
+
